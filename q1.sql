@@ -1,4 +1,22 @@
+1. For each country, and for each political party, for each of the years between 1996 to 2016, both inclusive,
+report the name of the country, the name of the party, and a description of the range into which the number
+of valid votes it received falls, in the following format: (Lb-Ub], for example, (20-30]. (Lb is the lower bound
+of the range and Ub is the upper bound of the range.)
+These are the ranges to consider:
+• non-zero and below 5 percent of valid votes inclusive,
+• 5 to 10 percent of valid votes inclusive,
+• 10 to 20 percent of valid votes inclusive,
+• 20 to 30 percent of valid votes inclusive,
+• 30 to 40 percent of valid votes inclusive, and
+• above 40 percent of valid votes.
+
+
+
+
+
+
 -- VoteRange
+
 
 SET SEARCH_PATH TO parlgov;
 drop table if exists q1 cascade;
