@@ -1,3 +1,9 @@
+Retrieve the parties that have won more than three times the average number of elections won by the parties
+in the same country. List the country name, party name, its party family name as well as the total number
+of elections won, as well as the id and the year of the most recently won election.
+
+
+
 -- Winners
 
 SET SEARCH_PATH TO parlgov;
