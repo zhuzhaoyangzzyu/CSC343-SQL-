@@ -1,3 +1,8 @@
+The database records several policy positions of political parties, including their left-right positions. Suppose
+the left-right range is divided into 5 intervals ([0,2), [2,4), [4,6), [6,8) and [8,10]). Create a histogram of parties
+in the database and their left-right position.
+
+
 -- Left-right
 
 SET SEARCH_PATH TO parlgov;
