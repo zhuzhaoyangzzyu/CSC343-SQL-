@@ -1,3 +1,14 @@
+For an election, the participation ratio (a value between zero and one) is the ratio of votes cast to the
+number of citizens who are eligible to vote. Find the countries that had at least one election between 2001
+to 2016, inclusive, and whose average election participation ratios during this period obey the following: for
+a pair year Y1 and year Y2, where at least one election has happened in each of them, if Y1 < Y2, then
+the average participation in year Y1 is ≤ the average participation in year Y2. (If more than one election
+happens in a country in a year, we calculate the participation ratio as the average participation ratio across
+those elections.) For such countries, report the name of the country and the average participation ratio per
+year for the years between 2001 to 2016.
+
+
+
 -- Participate
 
 SET SEARCH_PATH TO parlgov;
